@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterMetrics : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class CharacterMetrics : MonoBehaviour
     [SerializeField] private float anxiety;
     [SerializeField] private float minAnxiety = 0.0f;
     [SerializeField] private float maxAnxiety = 100.0f;
+    [SerializeField] private Slider anxietySlider;
     //[SerializaField] private float anxietyDecayRate = 0.1f;
     //[SerializeField] private float anxietyDecayDelay = 1.0f;
 
@@ -14,6 +16,26 @@ public class CharacterMetrics : MonoBehaviour
     void Start()
     {
         anxiety = 0.0f;
+        if(anxietySlider != null)
+        {
+            anxietySlider.maxValue = maxAnxiety;
+            anxietySlider.minValue = minAnxiety;
+            anxietySlider.value = anxiety;
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        handleAnxietySlider();
+    }
+
+    private void handleAnxietySlider()
+    {
+        if (anxietySlider != null)
+        {
+            anxietySlider.value = anxiety;
+        }
     }
 
     public void setAnxiety(float value)
