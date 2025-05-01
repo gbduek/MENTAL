@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 10.0f;
     private Vector2 movementInput;
+    private CharacterMetrics characterMetrics;
 
     void Update()
     {

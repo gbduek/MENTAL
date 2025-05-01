@@ -1,0 +1,34 @@
+using UnityEngine;
+
+public class CharacterMetrics : MonoBehaviour
+{
+
+    [Header("Anxiety")]
+    [SerializeField] private float anxiety;
+    [SerializeField] private float minAnxiety = 0.0f;
+    [SerializeField] private float maxAnxiety = 100.0f;
+    //[SerializaField] private float anxietyDecayRate = 0.1f;
+    //[SerializeField] private float anxietyDecayDelay = 1.0f;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        anxiety = 0.0f;
+    }
+
+    public void setAnxiety(float value)
+    {
+        anxiety = Mathf.Clamp(value, minAnxiety, maxAnxiety);
+    }
+
+    public float getAnxiety()
+    {
+        return anxiety;
+    }
+
+    public void addAnxiety(float value)
+    {
+        anxiety += value;
+        anxiety = Mathf.Clamp(anxiety, minAnxiety, maxAnxiety);
+    }
+}
