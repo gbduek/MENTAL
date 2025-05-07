@@ -11,7 +11,12 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        forcedTarget = GameObject.FindWithTag("AttractedTo").transform;
+        //Find the target object with the tag "AttractedTo" and set it as the forced target
+        GameObject targetObject = GameObject.FindWithTag("AttractedTo");
+        if (targetObject != null)
+        {
+            forcedTarget = targetObject.transform;
+        }
     }
 
     void Update()
