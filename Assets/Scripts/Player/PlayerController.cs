@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public Transform forcedTarget;
 
     private Vector2 movementInput;
+    private CharacterMetrics characterMetrics;
 
     void Start()
     {
