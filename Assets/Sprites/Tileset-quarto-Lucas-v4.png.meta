@@ -360,10 +360,10 @@ TextureImporter:
       name: Tileset-quarto-Lucas-v4_9
       rect:
         serializedVersion: 2
-        x: 179
-        y: 178
-        width: 71
-        height: 72
+        x: 205
+        y: 230
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,6 +478,94 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_14
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 204
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994e06c72d33c444a9734aa7775fb268
+      internalID: 401509386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_15
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 179
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc2a04ab206a9a49ab056c5879e76d5
+      internalID: -885861236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 204
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb15de8bc54573140a2f98d23c8761e2
+      internalID: -517030103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_17
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 224
+        width: 25
+        height: 26
+      alignment: 9
+      pivot: {x: 0.4, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de48d36fe5850b74baa4154d62f32708
+      internalID: -1578268442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -498,6 +586,11 @@ TextureImporter:
       Tileset-quarto-Lucas-v4_11: 2446914740565743296
       Tileset-quarto-Lucas-v4_12: 414799872213214500
       Tileset-quarto-Lucas-v4_13: -8402872761257728688
+      Tileset-quarto-Lucas-v4_14: 401509386
+      Tileset-quarto-Lucas-v4_15: -885861236
+      Tileset-quarto-Lucas-v4_16: -517030103
+      Tileset-quarto-Lucas-v4_17: -1578268442
+      Tileset-quarto-Lucas-v4_18: 1961016427
       Tileset-quarto-Lucas-v4_2: 1152908510857800068
       Tileset-quarto-Lucas-v4_3: 1980114854536192028
       Tileset-quarto-Lucas-v4_4: -5183949449574954359
