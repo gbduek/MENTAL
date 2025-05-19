@@ -294,8 +294,8 @@ TextureImporter:
         y: 210
         width: 20
         height: 40
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -431,14 +431,14 @@ TextureImporter:
         width: 25
         height: 33
       alignment: 9
-      pivot: {x: 0.44, y: 0.3030303}
+      pivot: {x: 0.44, y: 0.15151516}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape:
       - - {x: 6.5, y: -15.5}
-        - {x: 6.5, y: -9.5}
-        - {x: -9.5, y: -9.5}
+        - {x: 6.5, y: -8.5}
+        - {x: -9.5, y: -8.5}
         - {x: -9.5, y: -15.5}
       tessellationDetail: 0
       bones: []
