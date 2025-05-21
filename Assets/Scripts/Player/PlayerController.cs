@@ -1,45 +1,34 @@
-using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
-    public MovementProfile profile;
-    public Transform forcedTarget;
-
-    private Vector2 movementInput;
-    private CharacterMetrics characterMetrics;
+    public float speed = 8;
+    private float movementX;
+    private float movementY;
+    private int count;
+    public int lives = 5;
+    public KarmaController playerKarma;
 
     void Start()
     {
-        //Find the target object with the tag "AttractedTo" and set it as the forced target
-        GameObject targetObject = GameObject.FindWithTag("AttractedTo");
-        if (targetObject != null)
-        {
-            forcedTarget = targetObject.transform;
-        }
+        // Initialization code if needed
+        playerKarma.getKarma();
     }
 
-    void Update()
+    void OnMove(InputValue movementValue)
     {
-        // Apply movement every frame
-        Vector3 movement = new Vector3(movementInput.x, movementInput.y, 0f);
-        transform.position += movement * profile.speed * Time.deltaTime;
-        // If forced movement is enabled, move towards the target
-        if (profile.isForcedMovement && forcedTarget != null)
-        {
-            Vector3 targetPosition = forcedTarget.position;
-            Vector3 direction = (targetPosition - transform.position).normalized;
-            transform.position += direction * profile.forcedSpeed * Time.deltaTime;
-
-        }
-
-
+        Vector2 movementVector = movementValue.Get<Vector2>();
+        movementX = movementVector.x;
+        movementY = movementVector.y;
+        playerKarma.setKarma(0.1f);
     }
 
-    // This function is automatically called by the new Input System
-    public void OnMove(InputValue value)
+    private void Update()
     {
-        movementInput = value.Get<Vector2>();
+        Vector2 movement = new Vector2(movementX, movementY).normalized;
+        transform.Translate(movement * speed * Time.deltaTime);
     }
 }
