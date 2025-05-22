@@ -5,21 +5,24 @@ using UnityEngine;
 
 public class MazeGenerator : MonoBehaviour
 {
-    [SerializeField]
     private MazeCell mazeCellPrefab;
-
-    [SerializeField]
     private int mazeWidth;
-
-    [SerializeField]
     private int mazeDepth;
+    private GameObject[] Collectables;
 
     private float cellSize;
     private MazeCell[,] mazeGrid;
 
+    private MazeCell mazeCellExit;
+
     //IEnumerator
-    void Start()
+    public ref MazeCell Generate(ref MazeCell mzCellPrefab, int mzWidth, int mzDepth, ref GameObject[] Collecs)
     {
+        mazeCellPrefab = mzCellPrefab;
+        mazeWidth = mzWidth;
+        mazeDepth = mzDepth;
+        Collectables = Collecs;
+
         mazeGrid = new MazeCell[mazeWidth, mazeDepth];
 
         for (int x = 0; x < mazeWidth; x++)
@@ -32,6 +35,9 @@ public class MazeGenerator : MonoBehaviour
 
         //yield return 
         GenerateMaze(null, mazeGrid[0, 0]);
+        PlaceCollectables();
+        PlaceExit();
+        return ref mazeCellExit;
     }
 
     //private IEnumerator
@@ -143,4 +149,59 @@ public class MazeGenerator : MonoBehaviour
         }
     }
 
+    private void PlaceCollectables()
+    {
+        Debug.Log("Placing collectables... (" + Collectables.Length + ")");
+        for (int i = 0; i < Collectables.Length; i++)
+        {
+            // Divide the maze into sqrt(Collectables.Length) regions along each axis
+            int regionsPerAxis = Mathf.CeilToInt(Mathf.Sqrt(Collectables.Length));
+            int regionX = i % regionsPerAxis;
+            int regionY = i / regionsPerAxis;
+
+            int minWidth = Mathf.FloorToInt((float)mazeWidth * regionX / regionsPerAxis);
+            int maxWidth = Mathf.FloorToInt((float)mazeWidth * (regionX + 1) / regionsPerAxis);
+            int minDepth = Mathf.FloorToInt((float)mazeDepth * regionY / regionsPerAxis);
+            int maxDepth = Mathf.FloorToInt((float)mazeDepth * (regionY + 1) / regionsPerAxis);
+
+            Debug.Log("Collectable " + i + " min: " + minWidth + ", " + minDepth);
+            Debug.Log("Collectable " + i + " max: " + maxWidth + ", " + maxDepth);
+
+            int collectableX = Random.Range(minWidth, maxWidth);
+            int collectableY = Random.Range(minDepth, maxDepth);
+            Debug.Log("Collectable " + i + " position: " + collectableX + ", " + collectableY);
+            Collectables[i].transform.position = new Vector3(collectableX, collectableY, 0);
+        }
+
+    }
+
+    private void PlaceExit()
+    {
+        int exitDirection = Random.Range(0, 4);
+        Debug.Log("Exit direction: " + exitDirection);
+        if (exitDirection == 0)
+        {
+            int exitX = Random.Range(0, mazeWidth);
+            mazeCellExit = mazeGrid[exitX, 0];
+            mazeCellExit.setBackExit();
+        }
+        else if (exitDirection == 1)
+        {
+            int exitX = Random.Range(0, mazeWidth);
+            mazeCellExit = mazeGrid[exitX, mazeDepth - 1]; 
+            mazeCellExit.setFrontExit();
+        }
+        else if (exitDirection == 2)
+        {
+            int exitY = Random.Range(0, mazeDepth);
+            mazeCellExit = mazeGrid[0, exitY]; 
+            mazeCellExit.setLeftExit();
+        }
+        else
+        {
+            int exitY = Random.Range(0, mazeDepth);
+            mazeCellExit = mazeGrid[mazeWidth - 1, exitY]; 
+            mazeCellExit.setRightExit();
+        }
+    }
 }

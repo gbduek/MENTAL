@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     public static SceneLoader Instance { get; private set; }
-    private string mazeScene = "H1-Maze"; // name of the maze scene
+    private string mazeScene = "PCG-Maze"; // name of the maze scene
     private Scene main; // reference to the main scene
 
     void Awake()

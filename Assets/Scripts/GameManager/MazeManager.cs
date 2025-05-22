@@ -2,11 +2,33 @@ using UnityEngine;
 
 public class MazeManager : MonoBehaviour
 {
+    [SerializeField]
+    private MazeCell mazeCellPrefab;
+
+    [SerializeField]
+    private int mazeWidth;
+
+    [SerializeField]
+    private int mazeDepth;
+
+    [SerializeField]
+    private GameObject[] Collectables;
+    [SerializeField]
+    private MazeGenerator generator;
     private int collectedCount = 0;
+
+    private MazeCell exit;
+    
+    void Start()
+    {
+        exit = generator.Generate(ref mazeCellPrefab, mazeWidth, mazeDepth, ref Collectables);
+    }
 
     private void enableExit()
     {
-        GameObject.Find("Exit").GetComponent<Collider2D>().isTrigger = true;
+        // Enable the exit
+        Debug.Log("Enabling exit...");
+        exit.enableExit();
     }
 
     public void unloadMaze()
@@ -19,7 +41,7 @@ public class MazeManager : MonoBehaviour
     {
         collectedCount++;
         Debug.Log("Collected: " + collectedCount);
-        if (collectedCount >= 4)
+        if (collectedCount == Collectables.Length)
         {
             Debug.Log("All collectibles collected!");
             // Unload the maze scene

@@ -11,6 +11,10 @@ public class MazeCell : MonoBehaviour
     private GameObject rightWall;
     [SerializeField]
     private GameObject leftWall;
+    [SerializeField]
+    private ExitController exitController;
+
+    private GameObject exit;
 
     [SerializeField]
     private GameObject unvisitedField;
@@ -38,5 +42,36 @@ public class MazeCell : MonoBehaviour
     public void ClearLeftWall()
     {
         leftWall.SetActive(false);
+    }
+    public void setBackExit()
+    {
+        backWall.AddComponent<ExitController>();
+        exit = backWall;
+    }
+
+    public void setFrontExit()
+    {
+        frontWall.AddComponent<ExitController>();
+        exit = frontWall;
+    }
+
+    public void setRightExit()
+    {
+        rightWall.AddComponent<ExitController>();
+        exit = rightWall;
+    }
+
+    public void setLeftExit()
+    {
+        leftWall.AddComponent<ExitController>();
+        exit = leftWall;
+    }
+
+    public void enableExit()
+    {
+        Debug.Log("Enabling exit...");
+        exit.GetComponent<Collider2D>().isTrigger = true;
+        var graphics = exit.GetComponentInChildren<SpriteRenderer>().gameObject;
+        graphics.SetActive(false);
     }
 }
