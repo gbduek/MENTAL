@@ -9,9 +9,11 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 movementInput;
     private CharacterMetrics characterMetrics;
+    private Animator animator;
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         //Find the target object with the tag "AttractedTo" and set it as the forced target
         GameObject targetObject = GameObject.FindWithTag("AttractedTo");
         if (targetObject != null)
@@ -40,6 +42,24 @@ public class PlayerController : MonoBehaviour
     // This function is automatically called by the new Input System
     public void OnMove(InputValue value)
     {
+        // Update movementInput first
         movementInput = value.Get<Vector2>();
+
+        // Check if the player is moving
+        if (movementInput == Vector2.zero)
+        {
+            //if not -> idle
+            animator.SetBool("isWalking", false);
+            animator.SetFloat("LastInputX", animator.GetFloat("InputX"));
+            animator.SetFloat("LastInputY", animator.GetFloat("InputY"));
+        }
+        else
+        {
+            //if moving -> walking
+            animator.SetBool("isWalking", true);
+            animator.SetFloat("InputX", movementInput.x);
+            animator.SetFloat("InputY", movementInput.y);
+        }
     }
+
 }

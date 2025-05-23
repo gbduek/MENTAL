@@ -1,0 +1,606 @@
+fileFormatVersion: 2
+guid: 127a602f409eb3540a1d9d666c94f7f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4044939808908717124
+    second: Tileset-quarto-Lucas-v4_0
+  - first:
+      213: -5668380639461466943
+    second: Tileset-quarto-Lucas-v4_1
+  - first:
+      213: 1152908510857800068
+    second: Tileset-quarto-Lucas-v4_2
+  - first:
+      213: 1980114854536192028
+    second: Tileset-quarto-Lucas-v4_3
+  - first:
+      213: -5183949449574954359
+    second: Tileset-quarto-Lucas-v4_4
+  - first:
+      213: -2594023712595581015
+    second: Tileset-quarto-Lucas-v4_5
+  - first:
+      213: -3473600552437711347
+    second: Tileset-quarto-Lucas-v4_6
+  - first:
+      213: -3165554096570115585
+    second: Tileset-quarto-Lucas-v4_7
+  - first:
+      213: 5480196482733761875
+    second: Tileset-quarto-Lucas-v4_8
+  - first:
+      213: -3571832233873191290
+    second: Tileset-quarto-Lucas-v4_9
+  - first:
+      213: -9130118326944257429
+    second: Tileset-quarto-Lucas-v4_10
+  - first:
+      213: 2446914740565743296
+    second: Tileset-quarto-Lucas-v4_11
+  - first:
+      213: 414799872213214500
+    second: Tileset-quarto-Lucas-v4_12
+  - first:
+      213: -8402872761257728688
+    second: Tileset-quarto-Lucas-v4_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10.5, y: 20.5}
+        - {x: -10.5, y: 20.5}
+        - {x: -10.5, y: -20.5}
+        - {x: 10.5, y: -20.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c27df3353822830800000000000000
+      internalID: 4044939808908717124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 210
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 11}
+        - {x: -10, y: 11}
+        - {x: -11, y: -20.5}
+        - {x: 11, y: -20.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc923d37ddd551b0800000000000000
+      internalID: -5668380639461466943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 228
+        width: 20
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: -1}
+        - {x: -10, y: -1}
+        - {x: -11, y: -11.5}
+        - {x: 11, y: -11.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4892438ae24ffff00800000000000000
+      internalID: 1152908510857800068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 209
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10aa1718f7ca7b10800000000000000
+      internalID: 1980114854536192028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 209
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ac08cf079ee08b0800000000000000
+      internalID: -5183949449574954359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 228
+        width: 42
+        height: 22
+      alignment: 9
+      pivot: {x: 0.23809524, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 21, y: -1}
+        - {x: -21, y: -1}
+        - {x: -22, y: -11.5}
+        - {x: 21, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7ecc75d2d200cd0800000000000000
+      internalID: -2594023712595581015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 210
+        width: 20
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: -8}
+        - {x: -10, y: -8}
+        - {x: -11, y: -20.5}
+        - {x: 11, y: -20.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e795493ba4bcfc0800000000000000
+      internalID: -3473600552437711347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 214
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9d7ac2251b114d0800000000000000
+      internalID: -3165554096570115585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_8
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 205
+        width: 6
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355e0bc6aa19d0c40800000000000000
+      internalID: 5480196482733761875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_9
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 230
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ec2b6f18d4e6ec0800000000000000
+      internalID: -3571832233873191290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a243d41cd4b4180800000000000000
+      internalID: -9130118326944257429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 190
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c696130eff25f120800000000000000
+      internalID: 2446914740565743296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 193
+        width: 25
+        height: 33
+      alignment: 9
+      pivot: {x: 0.44, y: 0.15151516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 6.5, y: -15.5}
+        - {x: 6.5, y: -8.5}
+        - {x: -9.5, y: -8.5}
+        - {x: -9.5, y: -15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425652c394aa1c500800000000000000
+      internalID: 414799872213214500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 188
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 7, y: -7.5}
+        - {x: 7, y: 4.5}
+        - {x: 4, y: 10.5}
+        - {x: -4, y: 10.5}
+        - {x: -7, y: 4.5}
+        - {x: -7, y: -9.5}
+        - {x: -5, y: -10.5}
+        - {x: 5, y: -10.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0556d647ebff26b80800000000000000
+      internalID: -8402872761257728688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_14
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 204
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994e06c72d33c444a9734aa7775fb268
+      internalID: 401509386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_15
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 179
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc2a04ab206a9a49ab056c5879e76d5
+      internalID: -885861236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 204
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb15de8bc54573140a2f98d23c8761e2
+      internalID: -517030103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-quarto-Lucas-v4_17
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 224
+        width: 25
+        height: 26
+      alignment: 9
+      pivot: {x: 0.4, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de48d36fe5850b74baa4154d62f32708
+      internalID: -1578268442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dce4ab2b61008254bb4e32331b00175b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tileset-quarto-Lucas-v4_0: 4044939808908717124
+      Tileset-quarto-Lucas-v4_1: -5668380639461466943
+      Tileset-quarto-Lucas-v4_10: -9130118326944257429
+      Tileset-quarto-Lucas-v4_11: 2446914740565743296
+      Tileset-quarto-Lucas-v4_12: 414799872213214500
+      Tileset-quarto-Lucas-v4_13: -8402872761257728688
+      Tileset-quarto-Lucas-v4_14: 401509386
+      Tileset-quarto-Lucas-v4_15: -885861236
+      Tileset-quarto-Lucas-v4_16: -517030103
+      Tileset-quarto-Lucas-v4_17: -1578268442
+      Tileset-quarto-Lucas-v4_18: 1961016427
+      Tileset-quarto-Lucas-v4_2: 1152908510857800068
+      Tileset-quarto-Lucas-v4_3: 1980114854536192028
+      Tileset-quarto-Lucas-v4_4: -5183949449574954359
+      Tileset-quarto-Lucas-v4_5: -2594023712595581015
+      Tileset-quarto-Lucas-v4_6: -3473600552437711347
+      Tileset-quarto-Lucas-v4_7: -3165554096570115585
+      Tileset-quarto-Lucas-v4_8: 5480196482733761875
+      Tileset-quarto-Lucas-v4_9: -3571832233873191290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
