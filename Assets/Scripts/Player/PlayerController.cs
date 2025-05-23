@@ -45,20 +45,23 @@ public class PlayerController : MonoBehaviour
         // Update movementInput first
         movementInput = value.Get<Vector2>();
 
-        // Check if the player is moving
-        if (movementInput == Vector2.zero)
+        if (animator != null)
         {
-            //if not -> idle
-            animator.SetBool("isWalking", false);
-            animator.SetFloat("LastInputX", animator.GetFloat("InputX"));
-            animator.SetFloat("LastInputY", animator.GetFloat("InputY"));
-        }
-        else
-        {
-            //if moving -> walking
-            animator.SetBool("isWalking", true);
-            animator.SetFloat("InputX", movementInput.x);
-            animator.SetFloat("InputY", movementInput.y);
+            // Check if the player is moving
+            if (movementInput == Vector2.zero)
+            {
+                //if not -> idle
+                animator.SetBool("isWalking", false);
+                animator.SetFloat("LastInputX", animator.GetFloat("InputX"));
+                animator.SetFloat("LastInputY", animator.GetFloat("InputY"));
+            }
+            else
+            {
+                //if moving -> walking
+                animator.SetBool("isWalking", true);
+                animator.SetFloat("InputX", movementInput.x);
+                animator.SetFloat("InputY", movementInput.y);
+            }
         }
     }
 
