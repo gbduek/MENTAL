@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8b79c6da6850a04fae0c82befe030b7, type: 3}
   m_Name: MovementTest
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
   isForcedMovement: 1
   forcedSpeed: 5
+  forcedTarget: {fileID: 0}
