@@ -4,12 +4,18 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public MovementProfile profile;
-    public Transform forcedTarget;
-
     private Vector2 movementInput;
     private CharacterMetrics characterMetrics;
     private Animator animator;
+
+    public MovementProfile profile;
+    public Transform forcedTarget;
+
+    private bool isInputLocked = false;
+    private float inputLockTimer = 0f;
+
+    private float forcedMovementFluctuation = 0f;
+    private float fluctuationTimer = 0f;
 
     void Start()
     {
@@ -24,19 +30,21 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        // Apply movement every frame
-        Vector3 movement = new Vector3(movementInput.x, movementInput.y, 0f);
-        transform.position += movement * profile.speed * Time.deltaTime;
-        // If forced movement is enabled, move towards the target
-        if (profile.isForcedMovement && forcedTarget != null)
-        {
-            Vector3 targetPosition = forcedTarget.position;
-            Vector3 direction = (targetPosition - transform.position).normalized;
-            transform.position += direction * profile.forcedSpeed * Time.deltaTime;
+        HandleInputLock();
 
+        if (!isInputLocked)
+        {
+            Vector3 inputMovement = new Vector3(movementInput.x, movementInput.y, 0f);
+
+            transform.position += inputMovement * profile.speed * Time.deltaTime;
+
+            if (Random.value < profile.inputLockChance * Time.deltaTime)
+            {
+                LockInput(profile.inputLockDuration);
+            }
         }
 
-
+        ApplyForcedMovement();
     }
 
     // This function is automatically called by the new Input System
@@ -65,4 +73,49 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void HandleInputLock()
+    {
+        if (isInputLocked)
+        {
+            inputLockTimer -= Time.deltaTime;
+            if (inputLockTimer <= 0f)
+            {
+                isInputLocked = false;
+            }
+        }
+    }
+
+    private void LockInput(float duration)
+    {
+        isInputLocked = true;
+        inputLockTimer = duration;
+        // Visual feedback ?
+    }
+
+    private void ApplyForcedMovement()
+    {
+        if (profile.isForcedMovement && forcedTarget != null)
+        {
+            Vector3 direction = (forcedTarget.position - transform.position).normalized;
+
+            // Fluctuating force: changes every fluctuationInterval
+            fluctuationTimer -= Time.deltaTime;
+            if (fluctuationTimer <= 0f)
+            {
+                forcedMovementFluctuation = Random.Range(profile.minForcedMultiplier, profile.maxForcedMultiplier);
+                fluctuationTimer = profile.fluctuationInterval;
+            }
+
+            float appliedForce = profile.forcedSpeed * forcedMovementFluctuation;
+
+            transform.position += direction * appliedForce * Time.deltaTime;
+
+            // Occasional jerks
+            if (Random.value < profile.jerkChance * Time.deltaTime)
+            {
+                transform.position += direction * profile.jerkStrength;
+                // visual feedback ?
+            }
+        }
+    }
 }
