@@ -1,0 +1,1071 @@
+fileFormatVersion: 2
+guid: 34109d7b264d6ad41b0507ed45ef7c4c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6851597599843951246
+    second: Tileset-trabalho-Lucas-v4_0
+  - first:
+      213: 569646506608142317
+    second: Tileset-trabalho-Lucas-v4_1
+  - first:
+      213: -5937125137605964182
+    second: Tileset-trabalho-Lucas-v4_2
+  - first:
+      213: -131105842779007251
+    second: Tileset-trabalho-Lucas-v4_3
+  - first:
+      213: 5614559635776464045
+    second: Tileset-trabalho-Lucas-v4_4
+  - first:
+      213: -3052205877351119662
+    second: Tileset-trabalho-Lucas-v4_5
+  - first:
+      213: 1094586368122581604
+    second: Tileset-trabalho-Lucas-v4_6
+  - first:
+      213: -3985532826796914509
+    second: Tileset-trabalho-Lucas-v4_7
+  - first:
+      213: -5888751858201199241
+    second: Tileset-trabalho-Lucas-v4_8
+  - first:
+      213: 9172851369161232502
+    second: Tileset-trabalho-Lucas-v4_9
+  - first:
+      213: 7554748471615258813
+    second: Tileset-trabalho-Lucas-v4_10
+  - first:
+      213: -3521218892805854677
+    second: Tileset-trabalho-Lucas-v4_11
+  - first:
+      213: 2450017305144481106
+    second: Tileset-trabalho-Lucas-v4_12
+  - first:
+      213: 1445302011550132151
+    second: Tileset-trabalho-Lucas-v4_13
+  - first:
+      213: 5376088573197025900
+    second: Tileset-trabalho-Lucas-v4_14
+  - first:
+      213: -6786804637868299317
+    second: Tileset-trabalho-Lucas-v4_15
+  - first:
+      213: -6299715344998634693
+    second: Tileset-trabalho-Lucas-v4_16
+  - first:
+      213: 379940169466915168
+    second: Tileset-trabalho-Lucas-v4_17
+  - first:
+      213: 6857320214129938332
+    second: Tileset-trabalho-Lucas-v4_18
+  - first:
+      213: 4148574657580821150
+    second: Tileset-trabalho-Lucas-v4_19
+  - first:
+      213: -1368189633629602217
+    second: Tileset-trabalho-Lucas-v4_20
+  - first:
+      213: 5543618137967137677
+    second: Tileset-trabalho-Lucas-v4_21
+  - first:
+      213: -3396926159730841380
+    second: Tileset-trabalho-Lucas-v4_22
+  - first:
+      213: 535573995716674363
+    second: Tileset-trabalho-Lucas-v4_23
+  - first:
+      213: -5059724671553666520
+    second: Tileset-trabalho-Lucas-v4_24
+  - first:
+      213: -7441599981364196564
+    second: Tileset-trabalho-Lucas-v4_25
+  - first:
+      213: 1951320284179220186
+    second: Tileset-trabalho-Lucas-v4_26
+  - first:
+      213: 7548972783840819721
+    second: Tileset-trabalho-Lucas-v4_27
+  - first:
+      213: -4490934923725560568
+    second: Tileset-trabalho-Lucas-v4_28
+  - first:
+      213: 5323929497179688341
+    second: Tileset-trabalho-Lucas-v4_29
+  - first:
+      213: 8106920862942027538
+    second: Tileset-trabalho-Lucas-v4_30
+  - first:
+      213: 5318799630680099225
+    second: Tileset-trabalho-Lucas-v4_31
+  - first:
+      213: -6110020127529338453
+    second: Tileset-trabalho-Lucas-v4_32
+  - first:
+      213: -4899426548333753410
+    second: Tileset-trabalho-Lucas-v4_33
+  - first:
+      213: -3674977450195615107
+    second: Tileset-trabalho-Lucas-v4_34
+  - first:
+      213: 4130713257752303357
+    second: Tileset-trabalho-Lucas-v4_35
+  - first:
+      213: -4879161685035354777
+    second: Tileset-trabalho-Lucas-v4_36
+  - first:
+      213: -7350915248195219060
+    second: Tileset-trabalho-Lucas-v4_37
+  - first:
+      213: 1922763139391274136
+    second: Tileset-trabalho-Lucas-v4_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 859
+        width: 83
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e822e9a37b3c51f50800000000000000
+      internalID: 6851597599843951246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 978
+        width: 149
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7abe9ca7ac7e700800000000000000
+      internalID: 569646506608142317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_2
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 953
+        width: 60
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e44f1c4281b9da0800000000000000
+      internalID: -5937125137605964182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_3
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 953
+        width: 60
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6dd2d3ee73e2ef0800000000000000
+      internalID: -131105842779007251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_4
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 859
+        width: 18
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4e3b4dd3ceaed40800000000000000
+      internalID: 5614559635776464045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 880
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d480230de264a5d0800000000000000
+      internalID: -3052205877351119662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_6
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 773
+        width: 96
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4627eef9080c03f00800000000000000
+      internalID: 1094586368122581604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_7
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 781
+        width: 51
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b88c12a20b80b8c0800000000000000
+      internalID: -3985532826796914509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 773
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dfe798263f64ea0800000000000000
+      internalID: -5888751858201199241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_9
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 773
+        width: 34
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6709f4c68b38c4f70800000000000000
+      internalID: 9172851369161232502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_10
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 773
+        width: 174
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db08d0a45bbd7d860800000000000000
+      internalID: 7554748471615258813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 675
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2aa9edb21e122fc0800000000000000
+      internalID: -3521218892805854677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_12
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 658
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25552be12c5300220800000000000000
+      internalID: 2450017305144481106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_13
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 601
+        width: 79
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b76a9f958ebe0410800000000000000
+      internalID: 1445302011550132151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_14
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 601
+        width: 80
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c620276d214bb9a40800000000000000
+      internalID: 5376088573197025900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_15
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 601
+        width: 68
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcbe2efc32d60d1a0800000000000000
+      internalID: -6786804637868299317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_16
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 638
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b6743654ae298a0800000000000000
+      internalID: -6299715344998634693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_17
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 638
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0692af43291d54500800000000000000
+      internalID: 379940169466915168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_18
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 646
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f025237681a2f50800000000000000
+      internalID: 6857320214129938332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_20
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 511
+        width: 174
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75eb226f6c6330de0800000000000000
+      internalID: -1368189633629602217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_21
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 335
+        width: 15
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8391fb3353eeec40800000000000000
+      internalID: 5543618137967137677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_22
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 335
+        width: 191
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8e209c7a1bbd0d0800000000000000
+      internalID: -3396926159730841380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_23
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 142
+        width: 125
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3301a526bdbe6700800000000000000
+      internalID: 535573995716674363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_24
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 249
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82283c2083f38c9b0800000000000000
+      internalID: -5059724671553666520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_25
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 249
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bcb368e302ab890800000000000000
+      internalID: -7441599981364196564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_26
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 77
+        width: 15
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6448db57b741b10800000000000000
+      internalID: 1951320284179220186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_27
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 163
+        width: 22
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a7cef20c653c860800000000000000
+      internalID: 7548972783840819721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_28
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 163
+        width: 22
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80521f91b7efca1c0800000000000000
+      internalID: -4490934923725560568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_29
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 183
+        width: 84
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d8e989ba562e940800000000000000
+      internalID: 5323929497179688341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_30
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 103
+        width: 191
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21fdcd19291918070800000000000000
+      internalID: 8106920862942027538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_31
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 134
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9998a2a751c20d940800000000000000
+      internalID: 5318799630680099225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_32
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 134
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba97028f019d43ba0800000000000000
+      internalID: -6110020127529338453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 28
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbc277338db10cb0800000000000000
+      internalID: -4899426548333753410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_34
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 28
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72058bda7bdffcc0800000000000000
+      internalID: -3674977450195615107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_35
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 28
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6925d82dd335930800000000000000
+      internalID: 4130713257752303357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_36
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 28
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76575c16c4cb94cb0800000000000000
+      internalID: -4879161685035354777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_37
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 28
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c815251578d4cf990800000000000000
+      internalID: -7350915248195219060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset-trabalho-Lucas-v4_38
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 28
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89cb1a653e60faa10800000000000000
+      internalID: 1922763139391274136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eea367512d11f2844b87ba01d30144d6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tileset-trabalho-Lucas-v4_19: 529951323
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
