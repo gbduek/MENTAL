@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Tileset-trabalho-Lucas-v4_19
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 4148574657580821150, guid: 34109d7b264d6ad41b0507ed45ef7c4c, type: 3}
+  m_Sprite: {fileID: 529951323, guid: 34109d7b264d6ad41b0507ed45ef7c4c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
