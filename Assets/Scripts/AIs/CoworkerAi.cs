@@ -12,6 +12,8 @@ public class CoworkerAi : MonoBehaviour
         Intercept
     };
 
+    States currentState = States.Idle;
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -22,7 +24,33 @@ public class CoworkerAi : MonoBehaviour
 
     void Update()
     {
-        myNavMeshAgent.SetDestination(player.transform.position);
+        Transition();
+        switch (currentState)
+        {
+            case States.Idle:
+                //Idle();
+                break;
+            case States.Chase:
+                myNavMeshAgent.SetDestination(player.transform.position);
+                break;
+            case States.Intercept:
+                //Intercept();
+                break;
+        }
+        
+    }
+
+    void Transition()
+    {
+        float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+        if (distanceToPlayer < 5f)
+        {
+            currentState = States.Chase;
+        }
+        else
+        {
+            currentState = States.Idle;
+        }
     }
 }
 
