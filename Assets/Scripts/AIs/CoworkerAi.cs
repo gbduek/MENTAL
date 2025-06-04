@@ -3,17 +3,26 @@ using UnityEngine;
 public class CoworkerAi : MonoBehaviour
 {
     GameObject player;
+    UnityEngine.AI.NavMeshAgent myNavMeshAgent;
 
+    enum States
+    {
+        Idle,
+        Chase,
+        Intercept
+    };
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player");
+        myNavMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        myNavMeshAgent.updateRotation = false;
+        myNavMeshAgent.updateUpAxis = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        myNavMeshAgent.SetDestination(player.transform.position);
     }
 }
+
