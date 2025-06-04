@@ -78,8 +78,8 @@ public class CardController
 
     private bool IsMatch(CardController other)
     {
-        return (this.cardID == "Card1" && other.cardID == "Card2")
-            || (this.cardID == "Card2" && other.cardID == "Card1");
+        return (this.cardID == "Card2" && other.cardID == "Card1")
+            || (this.cardID == "Card3" && other.cardID == "Card2");
     }
 
     public void OnEndDrag(PointerEventData eventData)
