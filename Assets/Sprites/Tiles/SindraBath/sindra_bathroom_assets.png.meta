@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 299812e0b55421f4abb785147b5faf50
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6455527568440289707
+    second: sindra_bathroom_assets_0
+  - first:
+      213: 4313802243458241244
+    second: sindra_bathroom_assets_1
+  - first:
+      213: 7835049275351861273
+    second: sindra_bathroom_assets_2
+  - first:
+      213: -4797183348119468398
+    second: sindra_bathroom_assets_3
+  - first:
+      213: -4856204085016938414
+    second: sindra_bathroom_assets_4
+  - first:
+      213: 2278003835466525338
+    second: sindra_bathroom_assets_5
+  - first:
+      213: -5158807157130891984
+    second: sindra_bathroom_assets_6
+  - first:
+      213: -1029428516579979035
+    second: sindra_bathroom_assets_7
+  - first:
+      213: 4914932026436536326
+    second: sindra_bathroom_assets_8
+  - first:
+      213: 1779720091778980747
+    second: sindra_bathroom_assets_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sindra_bathroom_assets_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 610
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc9802d28c3067479baea1b770d62a5
+      internalID: -676768372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sindra_bathroom_assets_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410
+        width: 200
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efb23cc6a489e04ca31891bc05de2ec
+      internalID: 1324012039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sindra_bathroom_assets_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 410
+        width: 200
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6990e664678f7784a92b0cf452086999
+      internalID: -223596273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sindra_bathroom_assets_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 410
+        width: 200
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb19204c0c1b754cb69c23b508b744d
+      internalID: -1625063067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sindra_bathroom_assets_7
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 410
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b89200e14063834fae5f1915ca334e9
+      internalID: -2117908998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sindra_bathroom_assets_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 10
+        width: 200
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7986716390547e4da05de61d3f8e77e
+      internalID: -349809890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cefacbc37a6cec346ae09b07fb29a37b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sindra_bathroom_assets_0: 163158454
+      sindra_bathroom_assets_1: -676768372
+      sindra_bathroom_assets_2: 37633125
+      sindra_bathroom_assets_3: -872136386
+      sindra_bathroom_assets_4: 1324012039
+      sindra_bathroom_assets_5: -223596273
+      sindra_bathroom_assets_6: -1625063067
+      sindra_bathroom_assets_7: -2117908998
+      sindra_bathroom_assets_8: -658646319
+      sindra_bathroom_assets_9: -349809890
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
