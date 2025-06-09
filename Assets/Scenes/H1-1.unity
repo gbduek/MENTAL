@@ -1415,7 +1415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5d49378bf2826448a1f61e3a80f1063, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: 9c57529f93bc92a4fbc3cac34b7ffd84, type: 2}
+  profile: {fileID: 11400000, guid: c57f20f2119d12b40855a333bd0f4010, type: 2}
   forcedTarget: {fileID: 0}
 --- !u!61 &220648637
 BoxCollider2D:
@@ -2017,7 +2017,7 @@ GameObject:
   - component: {fileID: 664430748}
   m_Layer: 0
   m_Name: Bed
-  m_TagString: Untagged
+  m_TagString: AttractedTo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

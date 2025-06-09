@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a8b79c6da6850a04fae0c82befe030b7, type: 3}
-  m_Name: Scene-H1-2
+  m_Name: Normal
   m_EditorClassIdentifier: 
   speed: 4
-  isForcedMovement: 1
-  forcedSpeed: 2
-  minForcedMultiplier: 0.5
-  maxForcedMultiplier: 1.5
-  fluctuationInterval: 0.5
+  isForcedMovement: 0
+  forcedSpeed: 0
+  minForcedMultiplier: 0
+  maxForcedMultiplier: 0
+  fluctuationInterval: 0
   jerkChance: 0
-  jerkStrength: 0.5
-  inputLockChance: 0.2
-  inputLockDuration: 1
+  jerkStrength: 0
+  inputLockChance: 0
+  inputLockDuration: 0
