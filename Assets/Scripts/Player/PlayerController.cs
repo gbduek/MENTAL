@@ -1,7 +1,7 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,24 +11,41 @@ public class PlayerController : MonoBehaviour
     private int count;
     public int lives = 5;
     public KarmaController playerKarma;
+    private Animator animator;
+    private Vector2 lastMovementDir;
+    private Vector2 movementInput;
 
     void Start()
     {
         // Initialization code if needed
-        playerKarma.getKarma();
+        // playerKarma.getKarma();
+        animator = GetComponent<Animator>();
     }
 
     void OnMove(InputValue movementValue)
     {
-        Vector2 movementVector = movementValue.Get<Vector2>();
-        movementX = movementVector.x;
-        movementY = movementVector.y;
-        playerKarma.setKarma(0.1f);
+        movementInput = movementValue.Get<Vector2>();
+
+        if (movementInput == Vector2.zero)
+        {
+            animator.speed = 0f; // Freeze animation
+            animator.Play("sindra_walk", 0, 0f); // Show first frame of walk animation
+        }
+        else
+        {
+            animator.speed = 1f; // Resume animation
+        }
+
+        animator.SetFloat("MoveX", movementInput.x);
+        animator.SetFloat("MoveY", movementInput.y);
+        animator.SetBool("IsMoving", movementInput != Vector2.zero);
+
+        //playerKarma.setKarma(0.1f);
     }
 
     private void Update()
     {
-        Vector2 movement = new Vector2(movementX, movementY).normalized;
+        Vector2 movement = movementInput.normalized;
         transform.Translate(movement * speed * Time.deltaTime);
     }
 }
