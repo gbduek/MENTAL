@@ -3,20 +3,44 @@ using UnityEngine.Events;
 
 public class Interactable : MonoBehaviour
 {
+    public enum InteractionType { OnKeyPress, OnTriggerEnter }
+    public InteractionType interactionType = InteractionType.OnKeyPress;
+    public float interactCooldown = 0f;
+
     public UnityEvent onInteract;
 
-    bool playerInside;
+    private bool playerInside;
+    private float cooldownTimer = -1f;
 
     void Update()
     {
-        if (playerInside && Input.GetKeyDown(KeyCode.E))
-            onInteract.Invoke();
+        if (cooldownTimer > 0f)
+            cooldownTimer -= Time.deltaTime;
+
+        if (interactionType == InteractionType.OnKeyPress && playerInside && Input.GetKeyDown(KeyCode.E))
+        {
+            if (cooldownTimer <= 0f)
+            {
+                cooldownTimer = interactCooldown;
+                onInteract.Invoke();
+            }
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-            playerInside = true;
+        if (!other.CompareTag("Player")) return;
+
+        playerInside = true;
+
+        if (interactionType == InteractionType.OnTriggerEnter)
+        {
+            if (cooldownTimer <= 0f)
+            {
+                cooldownTimer = interactCooldown;
+                onInteract.Invoke();
+            }
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)
@@ -24,7 +48,4 @@ public class Interactable : MonoBehaviour
         if (other.CompareTag("Player"))
             playerInside = false;
     }
-
-    public void LogTest(string message) => Debug.Log(message);
-
 }
