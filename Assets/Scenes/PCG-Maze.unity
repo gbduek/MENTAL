@@ -193,6 +193,7 @@ MonoBehaviour:
   minAnxiety: 0
   maxAnxiety: 100
   anxietySlider: {fileID: 0}
+  anxietyDecayRate: -0.1
 --- !u!114 &838733798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -379,6 +380,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 865971930}
+  - {fileID: 1647851041}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0.615, y: 0, z: 0}
 --- !u!1 &865971929
@@ -1105,12 +1107,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647851036}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.00537106, y: 0, z: -0, w: 0.9999856}
+  m_LocalPosition: {x: 0, y: -0.0716131, z: -6.666282}
+  m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 838733803}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1916206047
 GameObject:
@@ -1299,7 +1301,6 @@ SpriteRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1647851041}
   - {fileID: 1159865047}
   - {fileID: 838733803}
   - {fileID: 1916206048}

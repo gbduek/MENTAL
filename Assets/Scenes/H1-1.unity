@@ -1399,10 +1399,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1491efcda0785934dbb6735beede97d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anxiety: 0
+  anxiety: 100
   minAnxiety: 0
   maxAnxiety: 100
-  anxietySlider: {fileID: 0}
+  anxietySlider: {fileID: 1370158423}
+  anxietyDecayRate: -5
 --- !u!114 &220648636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2528,7 +2529,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1384545898
 Transform:
   m_ObjectHideFlags: 0

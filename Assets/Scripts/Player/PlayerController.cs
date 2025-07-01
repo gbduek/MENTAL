@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        characterMetrics = GetComponent<CharacterMetrics>();
         //Find the target object with the tag "AttractedTo" and set it as the forced target
         GameObject targetObject = GameObject.FindWithTag("AttractedTo");
         if (targetObject != null)
@@ -34,9 +35,15 @@ public class PlayerController : MonoBehaviour
 
         if (!isInputLocked)
         {
+            // Calculate speed decay based on anxiety
+            // When anxiety = 0, speed = profile.speed
+            // When anxiety = 100, speed = profile.forcedSpeed
+            float anxiety = characterMetrics != null ? characterMetrics.getAnxiety() : 0f;
+            float t = Mathf.Clamp01(anxiety / 100f);
+            float currentSpeed = Mathf.Lerp(profile.speed, profile.forcedSpeed*profile.maxForcedMultiplier, t);
+            Debug.Log(currentSpeed);
             Vector3 inputMovement = new Vector3(movementInput.x, movementInput.y, 0f);
-
-            transform.position += inputMovement * profile.speed * Time.deltaTime;
+            transform.position += inputMovement * currentSpeed * Time.deltaTime;
 
             if (Random.value < profile.inputLockChance * Time.deltaTime)
             {
