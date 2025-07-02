@@ -14,12 +14,16 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private Vector2 lastMovementDir;
     private Vector2 movementInput;
+    private SpriteRenderer spriteRenderer;
+    private Rigidbody2D rb;
 
     void Start()
     {
         // Initialization code if needed
         // playerKarma.getKarma();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void OnMove(InputValue movementValue)
@@ -29,23 +33,30 @@ public class PlayerController : MonoBehaviour
         if (movementInput == Vector2.zero)
         {
             animator.speed = 0f; // Freeze animation
-            animator.Play("sindra_walk", 0, 0f); // Show first frame of walk animation
+            animator.SetFloat("MoveX", lastMovementDir.x);
+            animator.SetFloat("MoveY", lastMovementDir.y);
         }
         else
         {
             animator.speed = 1f; // Resume animation
+            animator.SetFloat("MoveX", movementInput.x);
+            animator.SetFloat("MoveY", movementInput.y);
+            animator.SetBool("IsMoving", movementInput != Vector2.zero);
+            spriteRenderer.flipX = movementInput.x > 0;
+            lastMovementDir = movementInput;
         }
-
-        animator.SetFloat("MoveX", movementInput.x);
-        animator.SetFloat("MoveY", movementInput.y);
-        animator.SetBool("IsMoving", movementInput != Vector2.zero);
 
         //playerKarma.setKarma(0.1f);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         Vector2 movement = movementInput.normalized;
-        transform.Translate(movement * speed * Time.deltaTime);
+        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("Collided with: " + collision.gameObject.name);
     }
 }

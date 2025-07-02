@@ -5,7 +5,6 @@ public class MemoryGame : MonoBehaviour
     public GameObject canvasChild;
     public GameObject[] cards; // Array to hold the card GameObjects
     public GameObject cardPrefab; // Prefab for the card GameObject
-    public int numberOfCards = 1; // Number of cards to create
     private bool gameStarted = false;
 
     void OnTriggerEnter2D(Collider2D other)

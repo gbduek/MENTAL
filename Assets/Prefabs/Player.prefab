@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 1342146978797708231}
   - component: {fileID: 8034925124255758234}
   - component: {fileID: 4666244995097846595}
+  - component: {fileID: 2861118526724882517}
+  - component: {fileID: 4130524141391281515}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -81,7 +83,7 @@ SpriteRenderer:
   m_SortingLayerID: -1862026871
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -317537544, guid: cd3e5bbcc0bf406459671e779e75c0e0, type: 3}
+  m_Sprite: {fileID: -2642796511342484967, guid: 9044a1d62a67c1d42842df61733a1b10, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5d49378bf2826448a1f61e3a80f1063, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 5
   lives: 5
   playerKarma: {fileID: 0}
 --- !u!61 &1342146978797708231
@@ -175,7 +177,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.001955, y: 4}
+    oldSize: {x: 2.31, y: 3.7122536}
     newSize: {x: 2.001955, y: 4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -232,3 +234,64 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2861118526724882517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5439962672353423671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aba9888c51f05d49897f01902ab5691, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 3204071361020207709}
+--- !u!114 &4130524141391281515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5439962672353423671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: b3b7fa89b48536e488ed0fde15a8adf6, type: 2}
+    - {fileID: 11400000, guid: 5cbb19248f2c5154398a9bea5f350c3e, type: 2}
+    - {fileID: 11400000, guid: 50fbf07130f4c2d4f85fd7a84a1ad89d, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls: []
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2861118526724882517}
+          m_TargetAssemblyTypeName: PlayerTimelineHooks, Assembly-CSharp
+          m_MethodName: FaceRight
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2861118526724882517}
+          m_TargetAssemblyTypeName: PlayerTimelineHooks, Assembly-CSharp
+          m_MethodName: SetWaking
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

@@ -1,46 +1,46 @@
 fileFormatVersion: 2
-guid: f2315faed607361459da4343a07f725b
+guid: b78871b798b76c94da74fdff04e7bfcc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2400603662439690727
-    second: sindra_bedroom_assets_0
+      213: -2642796511342484967
+    second: sindra_wake_0
   - first:
-      213: -3879488269637169838
-    second: sindra_bedroom_assets_1
+      213: 5808753015456761781
+    second: sindra_wake_1
   - first:
-      213: 7565301690249515835
-    second: sindra_bedroom_assets_2
+      213: -1132459176381601920
+    second: sindra_wake_2
   - first:
-      213: 3868532834925500955
-    second: sindra_bedroom_assets_3
+      213: 1848649795556425870
+    second: sindra_wake_3
   - first:
-      213: -8274510497859415858
-    second: sindra_bedroom_assets_4
+      213: 4765576677249591514
+    second: sindra_wake_4
   - first:
-      213: 5528926772428765905
-    second: sindra_bedroom_assets_5
+      213: -8997217026377537941
+    second: sindra_wake_5
   - first:
-      213: -8800701927198584780
-    second: sindra_bedroom_assets_6
+      213: 8836021765936189117
+    second: sindra_wake_6
   - first:
-      213: -839983528902089056
-    second: sindra_bedroom_assets_7
+      213: -5411851001185170317
+    second: sindra_wake_7
   - first:
-      213: -5259201209272462363
-    second: sindra_bedroom_assets_8
+      213: 5579186923378261959
+    second: sindra_wake_8
   - first:
-      213: -8158091750464404684
-    second: sindra_bedroom_assets_9
+      213: -8781175005134881933
+    second: sindra_wake_9
   - first:
-      213: 197121876924997722
-    second: sindra_bedroom_assets_10
+      213: -304371765363080499
+    second: sindra_wake_10
   - first:
-      213: 4118760161300027376
-    second: sindra_bedroom_assets_11
+      213: -6692762063774338331
+    second: sindra_wake_11
   - first:
-      213: -6802380072004259764
-    second: sindra_bedroom_assets_12
+      213: -6241853490746478703
+    second: sindra_wake_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -149,287 +149,287 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sindra_bedroom_assets_6
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 600
-        width: 400
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70f0ef19557089543ae3babf2ea0f3ec
-      internalID: -233632269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sindra_bedroom_assets_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 400
-        width: 200
-        height: 400
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b22d10c2c76aabf4bb47db57b1f101f7
-      internalID: 1314893063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sindra_bedroom_assets_9
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 400
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b563155f5ed9d94da3fe73929007ad9
-      internalID: 711555948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sindra_bedroom_assets_11
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 400
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6824ec3c0f02a6478507eb9b121f381
-      internalID: 1111461834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sindra_bedroom_assets_13
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 400
-        width: 200
-        height: 400
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e358c31ab4355f940b24670af5e173a3
-      internalID: 410551738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sindra_bedroom_assets_14
-      rect:
-        serializedVersion: 2
-        x: 1400
-        y: 390
-        width: 200
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 014c46e8f2afd3149a942be6dec87fc2
-      internalID: -671801601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sindra_bedroom_assets_15
-      rect:
-        serializedVersion: 2
-        x: 1610
-        y: 400
-        width: 190
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75624172ee7448442bac3ea1c2046c63
-      internalID: -514574725
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sindra_bedroom_assets_21
-      rect:
-        serializedVersion: 2
-        x: 1410
-        y: 180
-        width: 200
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a0e00bde8bd864429ac6e53328c9fd8
-      internalID: 1485991114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sindra_bedroom_assets_23
+      name: sindra_wake_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 400
-        height: 400
+        width: 231
+        height: 371
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 747b599f57dc81c4b9eaa7ff3a556130
-      internalID: 482369930
+      spriteID: 9122ac73396e25bd0800000000000000
+      internalID: -2642796511342484967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sindra_bedroom_assets_25
+      name: sindra_wake_1
       rect:
         serializedVersion: 2
-        x: 600
+        x: 229
         y: 0
-        width: 400
-        height: 399
+        width: 232
+        height: 371
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1395d72cc4655bd479df1e42701eb831
-      internalID: -111017243
+      spriteID: 5b7874a6716dc9050800000000000000
+      internalID: 5808753015456761781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sindra_bedroom_assets_27
+      name: sindra_wake_2
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 459
         y: 0
-        width: 200
-        height: 400
+        width: 232
+        height: 371
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 593087c92d24b524d8552448cbaf1890
-      internalID: 525453150
+      spriteID: 087a42d0162b840f0800000000000000
+      internalID: -1132459176381601920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sindra_bedroom_assets_28
+      name: sindra_wake_3
       rect:
         serializedVersion: 2
-        x: 1200
+        x: 689
         y: 0
-        width: 200
-        height: 200
+        width: 232
+        height: 371
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8aa275942166ebe4fa8274e0cfd8ce31
-      internalID: -660962779
+      spriteID: e804d3ac139b7a910800000000000000
+      internalID: 1848649795556425870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sindra_bedroom_assets_30
+      name: sindra_wake_4
       rect:
         serializedVersion: 2
-        x: 1600
+        x: 919
         y: 0
-        width: 200
-        height: 390
+        width: 232
+        height: 371
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 597e8c4b207bd2144bde6d3af94a59b7
-      internalID: 1924084216
+      spriteID: ad829552dbab22240800000000000000
+      internalID: 4765576677249591514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sindra_wake_5
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 39
+        width: 212
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66aba7a8c6732380800000000000000
+      internalID: -8997217026377537941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sindra_wake_6
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 49
+        width: 212
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe0f3a1bfadf9a70800000000000000
+      internalID: 8836021765936189117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sindra_wake_7
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 49
+        width: 212
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c0409003e35e4b0800000000000000
+      internalID: -5411851001185170317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sindra_wake_8
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 49
+        width: 212
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf377f62f04d6d40800000000000000
+      internalID: 5579186923378261959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sindra_wake_9
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 49
+        width: 212
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b75648bdff22680800000000000000
+      internalID: -8781175005134881933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sindra_wake_10
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 49
+        width: 212
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc200e5fd77a6cbf0800000000000000
+      internalID: -304371765363080499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sindra_wake_11
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 49
+        width: 212
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2358edc588e13a0800000000000000
+      internalID: -6692762063774338331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sindra_wake_12
+      rect:
+        serializedVersion: 2
+        x: 2769
+        y: 49
+        width: 212
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f2608225b7069a0800000000000000
+      internalID: -6241853490746478703
       vertices: []
       indices: 
       edges: []
@@ -438,7 +438,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e67c38926e816254cb6a8af3cd284102
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -448,37 +448,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sindra_bedroom_assets_0: 1833300568
-      sindra_bedroom_assets_1: -1017945269
-      sindra_bedroom_assets_10: -1863803591
-      sindra_bedroom_assets_11: 1111461834
-      sindra_bedroom_assets_12: -383817273
-      sindra_bedroom_assets_13: 410551738
-      sindra_bedroom_assets_14: -671801601
-      sindra_bedroom_assets_15: -514574725
-      sindra_bedroom_assets_16: -2102510211
-      sindra_bedroom_assets_17: -692852068
-      sindra_bedroom_assets_18: 373355673
-      sindra_bedroom_assets_19: 530217729
-      sindra_bedroom_assets_2: -941948531
-      sindra_bedroom_assets_20: -1830057039
-      sindra_bedroom_assets_21: 1485991114
-      sindra_bedroom_assets_22: -407426086
-      sindra_bedroom_assets_23: 482369930
-      sindra_bedroom_assets_24: -1021943162
-      sindra_bedroom_assets_25: -111017243
-      sindra_bedroom_assets_26: 115852281
-      sindra_bedroom_assets_27: 525453150
-      sindra_bedroom_assets_28: -660962779
-      sindra_bedroom_assets_29: 295852848
-      sindra_bedroom_assets_3: -86883959
-      sindra_bedroom_assets_30: 1924084216
-      sindra_bedroom_assets_4: -961155000
-      sindra_bedroom_assets_5: 757333711
-      sindra_bedroom_assets_6: -233632269
-      sindra_bedroom_assets_7: 440920710
-      sindra_bedroom_assets_8: 1314893063
-      sindra_bedroom_assets_9: 711555948
+      sindra_wake_0: -2642796511342484967
+      sindra_wake_1: 5808753015456761781
+      sindra_wake_10: -304371765363080499
+      sindra_wake_11: -6692762063774338331
+      sindra_wake_12: -6241853490746478703
+      sindra_wake_2: -1132459176381601920
+      sindra_wake_3: 1848649795556425870
+      sindra_wake_4: 4765576677249591514
+      sindra_wake_5: -8997217026377537941
+      sindra_wake_6: 8836021765936189117
+      sindra_wake_7: -5411851001185170317
+      sindra_wake_8: 5579186923378261959
+      sindra_wake_9: -8781175005134881933
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
