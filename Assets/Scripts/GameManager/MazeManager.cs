@@ -13,12 +13,13 @@ public class MazeManager : MonoBehaviour
 
     [SerializeField]
     private GameObject[] Collectables;
+
     [SerializeField]
     private MazeGenerator generator;
     private int collectedCount = 0;
 
     private MazeCell exit;
-    
+
     void Start()
     {
         exit = generator.Generate(ref mazeCellPrefab, mazeWidth, mazeDepth, ref Collectables);
@@ -34,7 +35,7 @@ public class MazeManager : MonoBehaviour
     public void unloadMaze()
     {
         // Unload the maze scene
-        SceneLoader.Instance.CloseSecondScene();
+        SceneLoader.Instance.CloseMaze();
     }
 
     public void addCollected()
@@ -46,7 +47,6 @@ public class MazeManager : MonoBehaviour
             Debug.Log("All collectibles collected!");
             // Unload the maze scene
             enableExit();
-
         }
     }
 }
