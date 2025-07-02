@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     public static SceneLoader Instance { get; private set; }
-    private string secondScene;
+    private string mazeScene = "PCG-Maze"; // name of the maze scene
     private Scene main; // reference to the main scene
 
     void Awake()
@@ -21,32 +21,27 @@ public class SceneLoader : MonoBehaviour
         }//--- End of singleton pattern
     }
 
-    public void SetMainScene(string mainScene)
+    public void OpenMaze(string mainScene)
     {
         // cache the main scene reference
-        main = SceneManager.GetSceneByName(mainScene); ;
-    }
+        main = SceneManager.GetSceneByName(mainScene);
 
-    public void OpenSecondScene(string sndScene)
-    {
-        
-        secondScene = sndScene;
         // pause main scene
         foreach (var go in main.GetRootGameObjects())
             go.SetActive(false);
 
         // load maze scene additively & make it the active scene
-        SceneManager.LoadSceneAsync(secondScene, LoadSceneMode.Additive)
+        SceneManager.LoadSceneAsync(mazeScene, LoadSceneMode.Additive)
                     .completed += _ =>
                     {
-                        SceneManager.SetActiveScene(SceneManager.GetSceneByName(secondScene));
+                        SceneManager.SetActiveScene(SceneManager.GetSceneByName(mazeScene));
                     };
     }
 
-    public void CloseSecondScene()
+    public void CloseMaze()
     {
         // unload maze scene
-        SceneManager.UnloadSceneAsync(secondScene);
+        SceneManager.UnloadSceneAsync(mazeScene);
 
         // resume main scene
         foreach (var go in main.GetRootGameObjects())
@@ -54,4 +49,5 @@ public class SceneLoader : MonoBehaviour
 
         SceneManager.SetActiveScene(main);
     }
+
 }

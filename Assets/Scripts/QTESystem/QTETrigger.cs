@@ -6,16 +6,6 @@ public class QTETrigger : MonoBehaviour
     public ButtonMashQTE qte;
     public TMP_Text succesText;
     public TMP_Text instrucitonsText;
-    public bool startOnAwake = false;
-    public bool jumpToMainScene = false;
-
-    public void Start()
-    {
-        if (startOnAwake)
-        {
-            StartQTE();
-        }
-    }
 
     public void StartQTE()
     {
@@ -43,10 +33,6 @@ public class QTETrigger : MonoBehaviour
         {
             succesText.gameObject.SetActive(true);
             succesText.text = success ? "Success!" : "Failed!";
-        }
-        if(jumpToMainScene)
-        {
-            SceneLoader.Instance.CloseSecondScene();
         }
     }
 }
