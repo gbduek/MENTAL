@@ -447,7 +447,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sindra_wake_0: -2642796511342484967
+      sindra_wake_1: 5808753015456761781
+      sindra_wake_10: -304371765363080499
+      sindra_wake_11: -6692762063774338331
+      sindra_wake_12: -6241853490746478703
+      sindra_wake_2: -1132459176381601920
+      sindra_wake_3: 1848649795556425870
+      sindra_wake_4: 4765576677249591514
+      sindra_wake_5: -8997217026377537941
+      sindra_wake_6: 8836021765936189117
+      sindra_wake_7: -5411851001185170317
+      sindra_wake_8: 5579186923378261959
+      sindra_wake_9: -8781175005134881933
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
