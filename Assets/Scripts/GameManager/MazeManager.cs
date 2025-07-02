@@ -34,7 +34,7 @@ public class MazeManager : MonoBehaviour
     public void unloadMaze()
     {
         // Unload the maze scene
-        SceneLoader.Instance.CloseMaze();
+        SceneLoader.Instance.CloseSecondScene();
     }
 
     public void addCollected()
