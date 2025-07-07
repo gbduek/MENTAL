@@ -14,12 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   isForcedMovement: 1
-  forcedSpeed: 2
-  minForcedMultiplier: 0.5
-  maxForcedMultiplier: 1.5
-  fluctuationInterval: 0.5
-  jerkChance: 0
-  jerkStrength: 0.5
-  inputLockChance: 0.5
-  inputLockDuration: 1
-  inputBias: 0.1
+  forcedSpeed: 5

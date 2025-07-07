@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class CoworkerAi : MonoBehaviour
 {
-    GameObject player;
-    UnityEngine.AI.NavMeshAgent myNavMeshAgent;
+    private GameObject player;
+    private UnityEngine.AI.NavMeshAgent myNavMeshAgent;
+    private Vector3 moveDirection;
+    private Animator animator;
 
     enum States
     {
@@ -16,6 +18,7 @@ public class CoworkerAi : MonoBehaviour
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
         myNavMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         myNavMeshAgent.updateRotation = false;
@@ -37,7 +40,27 @@ public class CoworkerAi : MonoBehaviour
                 //Intercept();
                 break;
         }
-        
+
+        moveDirection = myNavMeshAgent.velocity.normalized;
+        if (animator != null)
+        {
+            // Check if the player is moving
+            if (moveDirection == Vector3.zero)
+            {
+                //if not -> idle
+                animator.SetBool("isWalking", false);
+                animator.SetFloat("LastInputX", animator.GetFloat("InputX"));
+                animator.SetFloat("LastInputY", animator.GetFloat("InputY"));
+            }
+            else
+            {
+                //if moving -> walking
+                animator.SetBool("isWalking", true);
+                animator.SetFloat("InputX", moveDirection.x);
+                animator.SetFloat("InputY", moveDirection.y);
+            }
+        }
+
     }
 
     void Transition()

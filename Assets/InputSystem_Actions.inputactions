@@ -990,6 +990,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "CardDrag",
+            "id": "66c935a5-d257-4b47-afc2-0267e07eef29",
+            "actions": [
+                {
+                    "name": "Click-n-Hold",
+                    "type": "Button",
+                    "id": "ac52d94e-61ba-477f-959c-973b8a0def17",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b5ba9a5a-4cb8-41c2-beed-55d81d4174dc",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse;Touch",
+                    "action": "Click-n-Hold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

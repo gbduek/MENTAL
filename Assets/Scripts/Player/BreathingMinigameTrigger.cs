@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BreathingMinigameTrigger : MonoBehaviour
+public class MinigameTrigger : MonoBehaviour
 {
     public BreathingMinigame minigame;
 
@@ -8,8 +8,7 @@ public class BreathingMinigameTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            minigame.OpenMinigame(); 
-            gameObject.SetActive(false); 
+            minigame.OpenMinigame();
         }
     }
 }

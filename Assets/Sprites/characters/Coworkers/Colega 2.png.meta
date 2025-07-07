@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 6470ea445595b664ab0156a8e3033eda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2972603304420371990
+    second: Colega 2_0
+  - first:
+      213: -3195805409492548408
+    second: Colega 2_1
+  - first:
+      213: 3148128557403511190
+    second: Colega 2_2
+  - first:
+      213: 8425399197549940710
+    second: Colega 2_3
+  - first:
+      213: 4361815463507172238
+    second: Colega 2_4
+  - first:
+      213: 2849817692952569537
+    second: Colega 2_5
+  - first:
+      213: 3269303577135266168
+    second: Colega 2_6
+  - first:
+      213: 326553892707873104
+    second: Colega 2_7
+  - first:
+      213: -2051984210810824212
+    second: Colega 2_8
+  - first:
+      213: 5820123677528170545
+    second: Colega 2_9
+  - first:
+      213: -7746809174711953705
+    second: Colega 2_10
+  - first:
+      213: 3211992324920818981
+    second: Colega 2_11
+  - first:
+      213: -78151499889954048
+    second: Colega 2_12
+  - first:
+      213: -7230436904335627113
+    second: Colega 2_13
+  - first:
+      213: 3659902362367611571
+    second: Colega 2_14
+  - first:
+      213: 5708226279559057471
+    second: Colega 2_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Colega 2_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 41
+        width: 53
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae11fdd4b013fb6d0800000000000000
+      internalID: -2972603304420371990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 2_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 38
+        width: 53
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4cce389e736a3d0800000000000000
+      internalID: -3195805409492548408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 2_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 41
+        width: 53
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6999c435e3660bb20800000000000000
+      internalID: 3148128557403511190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 2_3
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 38
+        width: 53
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef43d43ee70de470800000000000000
+      internalID: 8425399197549940710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 2_4
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 41
+        width: 56
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b962edd08488c30800000000000000
+      internalID: 4361815463507172238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 2_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 41
+        width: 68
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6af0fb7169c8720800000000000000
+      internalID: 2849817692952569537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 2_6
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 41
+        width: 56
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879bf0a2846ee5d20800000000000000
+      internalID: 3269303577135266168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 2_7
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 41
+        width: 68
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051bfd60907288400800000000000000
+      internalID: 326553892707873104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 2_8
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 41
+        width: 56
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce919ed6b33e583e0800000000000000
+      internalID: -2051984210810824212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 2_9
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 41
+        width: 68
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13028ebf5ab35c050800000000000000
+      internalID: 5820123677528170545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 2_10
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 41
+        width: 56
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d69e86991ecd7490800000000000000
+      internalID: -7746809174711953705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 2_11
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 41
+        width: 68
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52dbf2c600a439c20800000000000000
+      internalID: 3211992324920818981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 2_12
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 41
+        width: 53
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003356aff995aeef0800000000000000
+      internalID: -78151499889954048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 2_13
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 37
+        width: 53
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c233aa1f358ab90800000000000000
+      internalID: -7230436904335627113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 2_14
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 41
+        width: 53
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2d88dbec59ac230800000000000000
+      internalID: 3659902362367611571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 2_15
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 37
+        width: 53
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30daaace81b73f40800000000000000
+      internalID: 5708226279559057471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Colega 2_0: -2972603304420371990
+      Colega 2_1: -3195805409492548408
+      Colega 2_10: -7746809174711953705
+      Colega 2_11: 3211992324920818981
+      Colega 2_12: -78151499889954048
+      Colega 2_13: -7230436904335627113
+      Colega 2_14: 3659902362367611571
+      Colega 2_15: 5708226279559057471
+      Colega 2_2: 3148128557403511190
+      Colega 2_3: 8425399197549940710
+      Colega 2_4: 4361815463507172238
+      Colega 2_5: 2849817692952569537
+      Colega 2_6: 3269303577135266168
+      Colega 2_7: 326553892707873104
+      Colega 2_8: -2051984210810824212
+      Colega 2_9: 5820123677528170545
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,121 +1,62 @@
-using System.Security.Cryptography;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    private Vector2 movementInput;
-    private CharacterMetrics characterMetrics;
+    public float speed = 8;
+    private float movementX;
+    private float movementY;
+    private int count;
+    public int lives = 5;
+    public KarmaController playerKarma;
     private Animator animator;
-
-    public MovementProfile profile;
-    public Transform forcedTarget;
-
-    private bool isInputLocked = false;
-    private float inputLockTimer = 0f;
-
-    private float forcedMovementFluctuation = 0f;
-    private float fluctuationTimer = 0f;
+    private Vector2 lastMovementDir;
+    private Vector2 movementInput;
+    private SpriteRenderer spriteRenderer;
+    private Rigidbody2D rb;
 
     void Start()
     {
+        // Initialization code if needed
+        // playerKarma.getKarma();
         animator = GetComponent<Animator>();
-        //Find the target object with the tag "AttractedTo" and set it as the forced target
-        GameObject targetObject = GameObject.FindWithTag("AttractedTo");
-        if (targetObject != null)
-        {
-            forcedTarget = targetObject.transform;
-        }
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void OnMove(InputValue movementValue)
     {
-        HandleInputLock();
+        movementInput = movementValue.Get<Vector2>();
 
-        if (!isInputLocked)
+        if (movementInput == Vector2.zero)
         {
-            Vector3 inputMovement = new Vector3(movementInput.x, movementInput.y, 0f);
-
-            transform.position += inputMovement * profile.speed * Time.deltaTime;
-
-            if (Random.value < profile.inputLockChance * Time.deltaTime)
-            {
-                LockInput(profile.inputLockDuration);
-            }
+            animator.speed = 0f; // Freeze animation
+            animator.SetFloat("MoveX", lastMovementDir.x);
+            animator.SetFloat("MoveY", lastMovementDir.y);
+        }
+        else
+        {
+            animator.speed = 1f; // Resume animation
+            animator.SetFloat("MoveX", movementInput.x);
+            animator.SetFloat("MoveY", movementInput.y);
+            animator.SetBool("IsMoving", movementInput != Vector2.zero);
+            spriteRenderer.flipX = movementInput.x > 0;
+            lastMovementDir = movementInput;
         }
 
-        ApplyForcedMovement();
+        //playerKarma.setKarma(0.1f);
     }
 
-    // This function is automatically called by the new Input System
-    public void OnMove(InputValue value)
+    private void FixedUpdate()
     {
-        // Update movementInput first
-        movementInput = value.Get<Vector2>();
-
-        if (animator != null)
-        {
-            // Check if the player is moving
-            if (movementInput == Vector2.zero)
-            {
-                //if not -> idle
-                animator.SetBool("isWalking", false);
-                animator.SetFloat("LastInputX", animator.GetFloat("InputX"));
-                animator.SetFloat("LastInputY", animator.GetFloat("InputY"));
-            }
-            else
-            {
-                //if moving -> walking
-                animator.SetBool("isWalking", true);
-                animator.SetFloat("InputX", movementInput.x);
-                animator.SetFloat("InputY", movementInput.y);
-            }
-        }
+        Vector2 movement = movementInput.normalized;
+        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
     }
 
-    private void HandleInputLock()
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        if (isInputLocked)
-        {
-            inputLockTimer -= Time.deltaTime;
-            if (inputLockTimer <= 0f)
-            {
-                isInputLocked = false;
-            }
-        }
-    }
-
-    private void LockInput(float duration)
-    {
-        isInputLocked = true;
-        inputLockTimer = duration;
-        // Visual feedback ?
-    }
-
-    private void ApplyForcedMovement()
-    {
-        if (profile.isForcedMovement && forcedTarget != null)
-        {
-            Vector3 direction = (forcedTarget.position - transform.position).normalized;
-
-            // Fluctuating force: changes every fluctuationInterval
-            fluctuationTimer -= Time.deltaTime;
-            if (fluctuationTimer <= 0f)
-            {
-                forcedMovementFluctuation = Random.Range(profile.minForcedMultiplier, profile.maxForcedMultiplier);
-                fluctuationTimer = profile.fluctuationInterval;
-            }
-
-            float appliedForce = profile.forcedSpeed * forcedMovementFluctuation;
-
-            transform.position += direction * appliedForce * Time.deltaTime;
-
-            // Occasional jerks
-            if (Random.value < profile.jerkChance * Time.deltaTime)
-            {
-                transform.position += direction * profile.jerkStrength;
-                // visual feedback ?
-            }
-        }
+        Debug.Log("Collided with: " + collision.gameObject.name);
     }
 }

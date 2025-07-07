@@ -182,24 +182,28 @@ public class MazeGenerator : MonoBehaviour
         if (exitDirection == 0)
         {
             int exitX = Random.Range(0, mazeWidth);
+            Debug.Log("Exit: " + exitX);
             mazeCellExit = mazeGrid[exitX, 0];
             mazeCellExit.setBackExit();
         }
         else if (exitDirection == 1)
         {
             int exitX = Random.Range(0, mazeWidth);
+            Debug.Log("Exit: " + exitX);
             mazeCellExit = mazeGrid[exitX, mazeDepth - 1]; 
             mazeCellExit.setFrontExit();
         }
         else if (exitDirection == 2)
         {
             int exitY = Random.Range(0, mazeDepth);
+            Debug.Log("Exit: " + exitY);
             mazeCellExit = mazeGrid[0, exitY]; 
             mazeCellExit.setLeftExit();
         }
         else
         {
             int exitY = Random.Range(0, mazeDepth);
+            Debug.Log("Exit: " + exitY);
             mazeCellExit = mazeGrid[mazeWidth - 1, exitY]; 
             mazeCellExit.setRightExit();
         }

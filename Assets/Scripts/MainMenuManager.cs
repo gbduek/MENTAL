@@ -25,10 +25,20 @@ public class MainMenuManager : MonoBehaviour
         mainMenuPanel.SetActive(true);
     }
 
-    // Funções dos botões do menu principal
+    // Funï¿½ï¿½es dos botï¿½es do menu principal
     public void StartNewGame()
     {
-        SceneManager.LoadScene("TestScene");
+        SceneManager.LoadScene("Menu_Chapters");
+    }
+
+    public void LoadLucas()
+    {
+        SceneManager.LoadScene("");
+    }
+
+    public void LoadSindra()
+    {
+        SceneManager.LoadScene("Sindra-Room");
     }
 
     public void LoadGame()
@@ -48,7 +58,7 @@ public class MainMenuManager : MonoBehaviour
         mainMenuPanel.SetActive(true);
     }
 
-    // Funções dos controles do painel opções
+    // Funï¿½ï¿½es dos controles do painel opï¿½ï¿½es
     public void SetVolume(float volume)
     {
         currentVolume = volume;

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: ed47e0be7bae8d04ca04c083d84af998
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2045942027588990461
+    second: Colega 1 Sprite_0
+  - first:
+      213: 3154362001688544357
+    second: Colega 1 Sprite_1
+  - first:
+      213: -8218211823734439375
+    second: Colega 1 Sprite_2
+  - first:
+      213: -720378798041945606
+    second: Colega 1 Sprite_3
+  - first:
+      213: 6344080759091898346
+    second: Colega 1 Sprite_4
+  - first:
+      213: -2649077257166184728
+    second: Colega 1 Sprite_5
+  - first:
+      213: -402301721148221028
+    second: Colega 1 Sprite_6
+  - first:
+      213: 1087254258085208880
+    second: Colega 1 Sprite_7
+  - first:
+      213: 6512570453767908021
+    second: Colega 1 Sprite_8
+  - first:
+      213: -1603707447281739116
+    second: Colega 1 Sprite_9
+  - first:
+      213: -2160569033333634827
+    second: Colega 1 Sprite_10
+  - first:
+      213: 3002586523214017443
+    second: Colega 1 Sprite_11
+  - first:
+      213: -8150098575136923329
+    second: Colega 1 Sprite_12
+  - first:
+      213: -5348648772298411600
+    second: Colega 1 Sprite_13
+  - first:
+      213: 5537187604366587896
+    second: Colega 1 Sprite_14
+  - first:
+      213: 2367403721708903388
+    second: Colega 1 Sprite_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Colega 1 Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 41
+        width: 53
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5fb792f65a46c10800000000000000
+      internalID: 2045942027588990461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 1 Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 38
+        width: 53
+        height: 119
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564c2ab278b86cb20800000000000000
+      internalID: 3154362001688544357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 1 Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 41
+        width: 53
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132c46563eb03fd80800000000000000
+      internalID: -8218211823734439375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 1 Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 38
+        width: 53
+        height: 119
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9acf6cc43b006f0800000000000000
+      internalID: -720378798041945606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 1 Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 41
+        width: 44
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7201886d3ba0850800000000000000
+      internalID: 6344080759091898346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 1 Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 41
+        width: 59
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee1b0025469c3bd0800000000000000
+      internalID: -2649077257166184728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 1 Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 41
+        width: 44
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c999e6257bcba6af0800000000000000
+      internalID: -402301721148221028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 1 Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 41
+        width: 59
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03323b9bcf3b61f00800000000000000
+      internalID: 1087254258085208880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 1 Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 41
+        width: 44
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba6a87925c416a50800000000000000
+      internalID: 6512570453767908021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 1 Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 41
+        width: 59
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a9f11d29c7eb9e0800000000000000
+      internalID: -1603707447281739116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 1 Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 41
+        width: 44
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8807f49ed1402e0800000000000000
+      internalID: -2160569033333634827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 1 Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 41
+        width: 59
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3fb83d8845ba920800000000000000
+      internalID: 3002586523214017443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 1 Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 41
+        width: 65
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31eb88e68805ee80800000000000000
+      internalID: -8150098575136923329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 1 Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 37
+        width: 53
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1f2daa748c5c5b0800000000000000
+      internalID: -5348648772298411600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 1 Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 41
+        width: 65
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f777f4f9ca08dc40800000000000000
+      internalID: 5537187604366587896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colega 1 Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 37
+        width: 53
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb95605425bad020800000000000000
+      internalID: 2367403721708903388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 98149f1c73b6799489f7c69d234d22a0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Colega 1 Sprite_0: 2045942027588990461
+      Colega 1 Sprite_1: 3154362001688544357
+      Colega 1 Sprite_10: -2160569033333634827
+      Colega 1 Sprite_11: 3002586523214017443
+      Colega 1 Sprite_12: -8150098575136923329
+      Colega 1 Sprite_13: -5348648772298411600
+      Colega 1 Sprite_14: 5537187604366587896
+      Colega 1 Sprite_15: 2367403721708903388
+      Colega 1 Sprite_2: -8218211823734439375
+      Colega 1 Sprite_3: -720378798041945606
+      Colega 1 Sprite_4: 6344080759091898346
+      Colega 1 Sprite_5: -2649077257166184728
+      Colega 1 Sprite_6: -402301721148221028
+      Colega 1 Sprite_7: 1087254258085208880
+      Colega 1 Sprite_8: 6512570453767908021
+      Colega 1 Sprite_9: -1603707447281739116
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

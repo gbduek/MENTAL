@@ -1,105 +1,151 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
 public class BreathingMinigame : MonoBehaviour
 {
-    public GameObject minigameUI;             // Painel do minigame
-    public Image breathingCircle;             // Círculo que expande/contrai
-    public TMP_Text instructionText;          // Texto com instruções
+    [Header("Minigame Elements")]
+    public GameObject minigameUI;
+    public RectTransform lungsImage;
+    public Image respirationBarFill;
+    public RectTransform targetMarker;
+    public TMP_Text instructionText;
+    public RectTransform respirationBarContainer;
 
-    public float phaseDuration = 4f;          // Duração de cada fase (inspirar/expirar)
-    public float minSize = 1f;              // Tamanho mínimo do círculo (escala normal)
-    public float maxSize = 4f;              // Tamanho máximo do círculo (respiração profunda)
-    public float anxietyReductionPerSuccess = 15f;  // Quanto reduz a ansiedade em cada sucesso
+    [Header("Settings")]
+    public float fillDuration = 5f;  // Segundos para encher a barra toda
+    public float successMargin = 0.4f;
+    public Vector2 targetRange = new Vector2(0.5f, 0.9f);
+    public float markerYOffset = -90f;
 
-    public CharacterMetrics characterMetrics; // Referência pública para arrastar o Player
+    [Header("Lung Scale")]
+    public float minLungScale = 2f;
+    public float maxLungScale = 2.2f;
 
-    private bool isBreathing = false;
-    private float phaseTimer = 0f;
-    private bool isInhaling = true;            // true = expandindo, false = contraindo
+    private float targetValue;
+    private bool isHolding = false;
+    private bool gameActive = false;
+    private bool inputAllowed = false;
 
-    private Vector3 originalScale;
-    private bool hasSucceededInPhase = false;
 
-    void Start()
+    private readonly string[] successMessages = new string[]
     {
-        minigameUI.SetActive(false);
-        originalScale = Vector3.one; // escala padrão (1,1,1)
+        "VocÃª conseguiu respirar.",
+        "O ar entrou... estÃ¡ funcionando.",
+        "Mais um passo pra retomar o controle.",
+        "EstÃ¡ funcionando. Mantenha esse ritmo.",
+        "VocÃª venceu esse momento."
+    };
 
-        if (characterMetrics == null)
-        {
-            Debug.LogWarning("CharacterMetrics não atribuído no Inspector!");
-        }
-    }
-
-    void Update()
+    private readonly string[] failMessages = new string[]
     {
-        if (!isBreathing) return;
+        "O ar nÃ£o entrou... tenta de novo.",
+        "TÃ¡ difÃ­cil, nÃ©? Respira mais uma vez.",
+        "Seu corpo ainda tÃ¡ lutando. NÃ£o desiste.",
+        "Ainda nÃ£o foi dessa vez. Respira outra vez.",
+        "Calma... tenta de novo."
+    };
 
-        phaseTimer += Time.unscaledDeltaTime;
-        float t = Mathf.Clamp01(phaseTimer / phaseDuration);
-
-        // Usa SmoothStep para suavizar
-        float smoothT = Mathf.SmoothStep(0f, 1f, t);
-
-        // Interpola o tamanho do círculo (expandir/contrair) suavemente
-        float scale = Mathf.Lerp(
-            isInhaling ? minSize : maxSize,
-            isInhaling ? maxSize : minSize,
-            smoothT
-        );
-
-        breathingCircle.rectTransform.localScale = new Vector3(scale, scale, 1f);
-
-        // Atualiza o texto de instrução
-        instructionText.text = isInhaling ? "Inspire (segure ESPAÇO)" : "Expire (solte ESPAÇO)";
-
-        // Verifica se o jogador fez a ação certa para a fase
-        if (!hasSucceededInPhase)
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
         {
-            if (isInhaling && Input.GetKey(KeyCode.Space))
-            {
-                hasSucceededInPhase = true;
-                characterMetrics.addAnxiety(-anxietyReductionPerSuccess);
-            }
-            else if (!isInhaling && !Input.GetKey(KeyCode.Space))
-            {
-                hasSucceededInPhase = true;
-                characterMetrics.addAnxiety(-anxietyReductionPerSuccess);
-            }
+            OpenMinigame();
         }
 
-        // Quando a fase acabar, troca para a próxima
-        if (phaseTimer >= phaseDuration)
+        if (!gameActive) return;
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            phaseTimer = 0f;
-            isInhaling = !isInhaling;
-            hasSucceededInPhase = false;
+            isHolding = true;
+            inputAllowed = true;
+            instructionText.text = "Inspire... com calma.";
         }
 
-        // Fecha o minigame se apertar ESC
+        if (Input.GetKeyUp(KeyCode.Space) && inputAllowed)
+        {
+            CheckResult();
+            ResetBar();
+            SetNewTarget();
+        }
+
+        if (isHolding)
+        {
+            respirationBarFill.fillAmount += Time.unscaledDeltaTime / fillDuration;
+            respirationBarFill.fillAmount = Mathf.Clamp01(respirationBarFill.fillAmount);
+
+            float scale = Mathf.Lerp(minLungScale, maxLungScale, respirationBarFill.fillAmount);
+            lungsImage.localScale = new Vector3(scale, scale, 1f);
+        }
+        else
+        {
+            lungsImage.localScale = Vector3.Lerp(
+                lungsImage.localScale,
+                Vector3.one * minLungScale,
+                5f * Time.unscaledDeltaTime
+            );
+        }
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             CloseMinigame();
         }
     }
 
+    private void CheckResult()
+    {
+        float currentValue = respirationBarFill.fillAmount;
+        bool success = Mathf.Abs(currentValue - targetValue) <= successMargin;
+
+        if (success)
+        {
+            instructionText.text = successMessages[Random.Range(0, successMessages.Length)];
+        }
+        else
+        {
+            instructionText.text = failMessages[Random.Range(0, failMessages.Length)];
+        }
+    }
+
+    private void ResetBar()
+    {
+        respirationBarFill.fillAmount = 0f;
+        isHolding = false;
+        inputAllowed = false;
+    }
+
+    private void SetNewTarget()
+    {
+        targetValue = Random.Range(targetRange.x, targetRange.y);
+
+        float barWidth = respirationBarContainer.rect.width;
+        float xPos = Mathf.Lerp(0, barWidth, targetValue);
+
+        targetMarker.anchoredPosition = new Vector2(xPos, markerYOffset);
+    }
+
+
+
+
+
     public void OpenMinigame()
     {
-        Time.timeScale = 0f;  // pausa o jogo principal
-        isBreathing = true;
+        Time.timeScale = 0f;
         minigameUI.SetActive(true);
+        gameActive = true;
+        ResetBar();
+        SetNewTarget();
+        instructionText.text = "Respire fundo... Segure ESPAÃ‡O para inspirar.";
 
-        phaseTimer = 0f;
-        isInhaling = true;
-        hasSucceededInPhase = false;
+        Vector2 pos = targetMarker.anchoredPosition;
+        targetMarker.anchoredPosition = new Vector2(pos.x, markerYOffset);
     }
+
 
     public void CloseMinigame()
     {
-        isBreathing = false;
-        Time.timeScale = 1f;  // retoma o jogo
+        Time.timeScale = 1f;
+        gameActive = false;
         minigameUI.SetActive(false);
     }
 }
